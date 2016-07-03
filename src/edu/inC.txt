@@ -1,0 +1,91 @@
+# ------------------------------------------------------------------
+# - UC01: addCompany (name) ----------------------------------------
+# ------------------------------------------------------------------
+
+addCompany(microsoft)
+addCompany(apple)
+
+#error
+addCompany(microsoft)
+
+# ------------------------------------------------------------------
+# - UC02: addLocation (company,locationName,address,length,width) --
+# ------------------------------------------------------------------
+
+addLocation(apple,Cupertino,Infinite,212,540)
+addLocation(microsoft,Redmond,Central Ave,630,1200)
+addLocation(apple,NY,6th Ave.,213,221)
+addLocation(apple,Cupertino,Infinite loop,213,550)
+
+#error
+addLocation(apples,Cupertino,Infinite loop,213,550)
+addLocation(apple,Cupertino,Infinite loop,213,five hundred and fifty)
+
+# ------------------------------------------------------------------
+# - UC03: addColor (company,amount,colorName,rgb,price) ------------
+# ------------------------------------------------------------------
+
+addColor(50,redd,F00,2.12)
+addColor(50,black,000,2.12)
+addColor(50,blue,00F,2.12)
+addColor(50,white,FFF,2.01)
+addColor(10,red,F00,4.24)
+
+#error
+addColor(10,red,F00,four point two)
+addColor(ten,red,F00,4.2)
+
+
+# ------------------------------------------------------------------
+# - UC04: newDesign (company,location,color) -----------------------
+# ------------------------------------------------------------------
+
+newDesign (apple,NY)
+newDesign (microsoft,Redmond)
+newDesign (apple,NY)
+
+#error
+newDesign (apples,NY)
+newDesign (apple,NewYork)
+
+draw(apple,NY)
+
+# ------------------------------------------------------------------
+# - UC05: addSyntheticPiece (company,location,x,y,color) -----------
+# ------------------------------------------------------------------
+
+addSyntheticPiece(apple,NY,0,0,F00)
+addSyntheticPiece(apple,NY,0,1,F00)
+addSyntheticPiece(apple,NY,1,0,F00)
+addSyntheticPiece(apple,NY,1,1,F00)
+
+addTextPiece(apple,NY,2,3,000,APPLE)
+addTextPiece(apple,NY,3,3,000,INC)
+addTextPiece(apple,NY,4,3,000,Designed by apple in California)
+
+addWoolPiece(apple,NY,3,0,000,1)
+addWoolPiece(apple,NY,3,1,000,2)
+
+draw(apple,NY)
+
+removePiece(apple,NY,1,1)
+removePiece(apple,NY,1,1)
+
+draw(apple,NY)
+
+#error
+removePiece(apple,NY,one,one)
+addSyntheticPiece(apples,NY,6,6,F00)
+addSyntheticPiece(apple,NewYork,6,6,F00)
+addSyntheticPiece(apple,NY,-7,-7,F00)
+addTextPiece(apple,NY,six,-7,F00,test)
+addTextPiece(apple,NY,6,-7,F00,test)
+addTextPiece(apple,NY,7,7,F00,test)
+addTextPiece(apple,NY,6,7,F00,test)
+addTextPiece(apple,NY,6,six,F00,test)
+addWoolPiece(apple,NY,7,6,F00,3)
+addWoolPiece(apple,NY,6,6,333,2)
+addWoolPiece(apple,NY,6,6,F00,two)
+addWoolPiece(apple,NY,6,6,F00,1)
+
+draw(apple,NY)
