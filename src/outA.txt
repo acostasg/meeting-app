@@ -1,0 +1,166 @@
+## COMMAND ##: addUser(jimenogarcia@uoc.es,ausdfas)
++ New user jimenogarcia@uoc.es pwd:ausdfas
+
+## COMMAND ##: addUser(albaJ@uoc.es,asse4434r)
++ New user albaJ@uoc.es pwd:asse4434r
+
+## COMMAND ##: addUser(lopezg@gmail.com,zzzzzzzz)
++ New user lopezg@gmail.com pwd:zzzzzzzz
+
+## COMMAND ##: addUser(rosana@gmail.es,yyyyyyyy)
++ New user rosana@gmail.es pwd:yyyyyyyy
+
+## COMMAND ##: addUser(alejandrox@gmail.cat,xxxxxxxx)
++ New user alejandrox@gmail.cat pwd:xxxxxxxx
+
+## COMMAND ##: addUser(alejandrox@gmail.cat,rrr)
+User already exists
+
+## COMMAND ##: listUsers
+MeetingManager Users:
+* jimenogarcia@uoc.es ausdfas
+Not available Interests for user yet
+
+* albaJ@uoc.es asse4434r
+Not available Interests for user yet
+
+* lopezg@gmail.com zzzzzzzz
+Not available Interests for user yet
+
+* rosana@gmail.es yyyyyyyy
+Not available Interests for user yet
+
+* alejandrox@gmail.cat xxxxxxxx
+Not available Interests for user yet
+
+
+
+## COMMAND ##: addMeetingGroup(TrobadesBCN,alejandrox@gmail.cat,xxxxxxxx,938788888)
+
+Information Meeting Group Name: TrobadesBCN
+No members to show
+No coorganizers to show
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.cat Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+No places to show
+No meetings to show
+
+
+## COMMAND ##: addMeetingGroup(TrobadesBCN,lopezg@gmail.cat,zzzzzzzz,9777777)
+Meeting Group already exists
+
+## COMMAND ##: addMeetingGroup(TrobadesBCN,alejandrox@gmail.cat,xxxxxxxx,938788888)
+Meeting Group already exists
+
+## COMMAND ##: addMeetingGroup(BCNWorld,mariaJimeno@gmail.cat,ssssssss,66688888)
+The coordinator of the Meeting Group is not an exisiting User
+
+## COMMAND ##: addMeetingGroup(BCNWorld,alejandrox@gmail.cat,xxxxxxxx,938788888)
+
+Information Meeting Group Name: BCNWorld
+No members to show
+No coorganizers to show
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.cat Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+No places to show
+No meetings to show
+
+
+## COMMAND ##: listAll(TrobadesBCN)
+
+Information Meeting Group Name: TrobadesBCN
+No members to show
+No coorganizers to show
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.cat Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+No places to show
+No meetings to show
+
+
+## COMMAND ##: listAll(BCNWorld)
+
+Information Meeting Group Name: BCNWorld
+No members to show
+No coorganizers to show
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.cat Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+No places to show
+No meetings to show
+
+
+## COMMAND ##: listAll(TravellingUSA)
+The requested Meeting Group does not exists
+
+## COMMAND ##: addCoorganizer(TrobadesBCN,rosana@gmail.es,yyyyyyyy)
+ New MeetingGroup TrobadesBCN Coordinator email: alejandrox@gmail.cat
+
+## COMMAND ##: addCoorganizer(TrobadesBCN,alejandrox@gmail.cat,xxxxxxxx)
+The requested User is already the organizer. Not added to coorganizers list
+
+## COMMAND ##: addCoorganizer(TheEmpty,alejandrox@gmail.cat,xxxxxxxx)
+The requested Meeting Group does not exists
+
+## COMMAND ##: addCoorganizer(BCNWorld,noexists@gmail.cat,zssszzxd)
+To be a member of a Meeting Group requires to be an existing user of the Meeting Manager. Check addUser.
+
+## COMMAND ##: addCoorganizer(TrobadesBCN,rosana@gmail.es,yyyyyyyy)
+The requested User is already a coorganizer.
+
+## COMMAND ##: addMember(BCNWorld,jimenogarcia@uoc.es,ausdfas)
+ New MeetingGroup BCNWorld Coordinator email: alejandrox@gmail.cat
+
+## COMMAND ##: addMember(BCNWorld,albaJ@uoc.es,asse4434r)
+ New MeetingGroup BCNWorld Coordinator email: alejandrox@gmail.cat
+
+## COMMAND ##: listAll(BCNWorld)
+
+Information Meeting Group Name: BCNWorld
+MeetingGroup Members in alphabetical email order: 
+* albaJ@uoc.es asse4434r
+Not available Interests for user yet
+
+* jimenogarcia@uoc.es ausdfas
+Not available Interests for user yet
+
+No coorganizers to show
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.cat Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+No places to show
+No meetings to show
+
+
+## COMMAND ##: addCoorganizer(BCNWorld,albaJ@uoc.es,asse4434r)
+ New MeetingGroup BCNWorld Coordinator email: alejandrox@gmail.cat
+
+## COMMAND ##: listAll(BCNWorld)
+
+Information Meeting Group Name: BCNWorld
+MeetingGroup Members in alphabetical email order: 
+* jimenogarcia@uoc.es ausdfas
+Not available Interests for user yet
+
+MeetingGroup Coorganizers in insertion order: 
+* albaJ@uoc.es asse4434r
+Not available Interests for user yet
+
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.cat Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+No places to show
+No meetings to show
+
+
+## COMMAND ##: addMember(BCNWorld,albaJ@uoc.es,asse4434r)
+The requested User is already a coorganizer.
+
+## COMMAND ##: addMember(TrobadesBCN,alejandrox@gmail.cat,xxxxxxxx)
+The requested User is already the organizer. Not added to coorganizers list
+
+## COMMAND ##: addCoorganizer(TrobadesBCN,rosana@gmail.es,yyyyyyyy)
+The requested User is already a coorganizer.
+

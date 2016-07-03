@@ -1,0 +1,152 @@
+## COMMAND ##: addUser(manuj@gmail.com,11xx92cd)
++ New user manuj@gmail.com pwd:11xx92cd
+
+## COMMAND ##: addUser(albatg@gmail.com,2222cc44)
++ New user albatg@gmail.com pwd:2222cc44
+
+## COMMAND ##: addUser(alejandrox@gmail.com,xxxxxxxx)
++ New user alejandrox@gmail.com pwd:xxxxxxxx
+
+## COMMAND ##: addUser(maria@gmail.cat,2222xxxx)
++ New user maria@gmail.cat pwd:2222xxxx
+
+## COMMAND ##: addMeetingGroup(outBCN,alejandrox@gmail.com,xxxxxxxx,938788888)
+
+Information Meeting Group Name: outBCN
+No members to show
+No coorganizers to show
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.com Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+No places to show
+NO meetings to show
+
+
+## COMMAND ##: addMember(outBCN,albatg@gmail.com,2222cc44)
+ New MeetingGroup outBCN Coordinator email: alejandrox@gmail.com
+
+## COMMAND ##: addMember(outBCN,manuj@gmail.com,11xx92cd)
+ New MeetingGroup outBCN Coordinator email: alejandrox@gmail.com
+
+## COMMAND ##: addPlace(London,LondonStreet,North,yes,England)
++ New Place Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+
+## COMMAND ##: assignPlaceMG(1,outBCN)
++ Added Place to Meeting Group 
+Information Meeting Group Name: outBCN
+MeetingGroup Members in alphabetical email order: 
+* albatg@gmail.com 2222cc44
+Not available Interests for user yet
+
+* manuj@gmail.com 11xx92cd
+Not available Interests for user yet
+
+No coorganizers to show
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.com Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+List of available places------------------
+Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+NO meetings to show
+
+
+## COMMAND ##: addMeetingMG(outBCN,1,VisitZoo,0,1,1,3,4)
++ Added Meeting. Complete info MG 
+Information Meeting Group Name: outBCN
+MeetingGroup Members in alphabetical email order: 
+* albatg@gmail.com 2222cc44
+Not available Interests for user yet
+
+* manuj@gmail.com 11xx92cd
+Not available Interests for user yet
+
+No coorganizers to show
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.com Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+List of available places------------------
+Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+MG Meetings Information------------------
+Description VisitZoo Date 30-11-2014 AttendeeLimit: 1 guestsPerMember: 3 attendeeTotal 4
+Related Place to Meeting info: Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+
+
+
+## COMMAND ##: addAnswer(VisitZoo,alejandrox@gmail.com,xxxxxxxx,8,yes)
+The number of guests exceeds the allowed number of guests for meeting
+
+## COMMAND ##: addAnswer(VisitZoo,alejandrox@gmail.com,xxxxxxxx,2,yes)
++ Added Answer 
+User information: alejandrox@gmail.com xxxxxxxx
+Not available Interests for user yet
+Guests Coming: 2
+Attending Result: Yes
+Information Meeting: Description VisitZoo Date 30-11-2014 AttendeeLimit: 1 guestsPerMember: 3 attendeeTotal 4
+Related Place to Meeting info: Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+
+
+
+## COMMAND ##: addAnswer(VisitZoo,alejandrox@gmail.com,xxxxxxxx,3,yes)
+The User has already answered Meeting Attending
+
+## COMMAND ##: addAnswer(VisitZoo,maria@gmail.com,2222xxxx,2,yes)
+User not found in Meeting Manager
+
+## COMMAND ##: addAnswer(VisitZoo,john@gmail.com,yyyy2234,2,yes)
+User not found in Meeting Manager
+
+## COMMAND ##: addAnswer(NottingHill,alejandrox@gmail.com,xxxxxxxx,2,yes)
+Meeting not found in Meeting Manager
+
+## COMMAND ##: addAnswer(VisitZoo,albatg@gmail.com,2222cc44,3,yes)
++ Added Answer 
+User information: albatg@gmail.com 2222cc44
+Not available Interests for user yet
+Guests Coming: 3
+Attending Result: WantASpot
+Information Meeting: Description VisitZoo Date 30-11-2014 AttendeeLimit: 1 guestsPerMember: 3 attendeeTotal 4
+Related Place to Meeting info: Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+
+
+
+## COMMAND ##: addAnswer(VisitZoo,manuj@gmail.com,11xx92cd,0,no)
++ Added Answer 
+User information: manuj@gmail.com 11xx92cd
+Not available Interests for user yet
+Guests Coming: 0
+Attending Result: No
+Information Meeting: Description VisitZoo Date 30-11-2014 AttendeeLimit: 1 guestsPerMember: 3 attendeeTotal 4
+Related Place to Meeting info: Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+
+
+
+## COMMAND ##: listMeetingAnswers(VisitZoo)
+Attending to Meeting
+User information: alejandrox@gmail.com xxxxxxxx
+Not available Interests for user yet
+Guests Coming: 2
+Attending Result: Yes
+Information Meeting: Description VisitZoo Date 30-11-2014 AttendeeLimit: 1 guestsPerMember: 3 attendeeTotal 4
+Related Place to Meeting info: Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+
+In waiting list
+User information: albatg@gmail.com 2222cc44
+Not available Interests for user yet
+Guests Coming: 3
+Attending Result: WantASpot
+Information Meeting: Description VisitZoo Date 30-11-2014 AttendeeLimit: 1 guestsPerMember: 3 attendeeTotal 4
+Related Place to Meeting info: Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+
+No Attending to Meeting
+User information: manuj@gmail.com 11xx92cd
+Not available Interests for user yet
+Guests Coming: 0
+Attending Result: No
+Information Meeting: Description VisitZoo Date 30-11-2014 AttendeeLimit: 1 guestsPerMember: 3 attendeeTotal 4
+Related Place to Meeting info: Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+
+
+
+## COMMAND ##: listMeetingAnswers(NottingHill)
+No existing Meeting or not Answers related to meeting yet
+

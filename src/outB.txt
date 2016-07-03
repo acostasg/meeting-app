@@ -1,0 +1,168 @@
+## COMMAND ##: addUser(jimenogarcia@uoc.es,ausdfas)
++ New user jimenogarcia@uoc.es pwd:ausdfas
+
+## COMMAND ##: addUser(albaJ@uoc.es,asse4434r)
++ New user albaJ@uoc.es pwd:asse4434r
+
+## COMMAND ##: addUser(lopezg@gmail.com,zzzzzzzz)
++ New user lopezg@gmail.com pwd:zzzzzzzz
+
+## COMMAND ##: addUser(rosana@gmail.es,yyyyyyyy)
++ New user rosana@gmail.es pwd:yyyyyyyy
+
+## COMMAND ##: addUser(alejandrox@gmail.cat,xxxxxxxx)
++ New user alejandrox@gmail.cat pwd:xxxxxxxx
+
+## COMMAND ##: addMeetingGroup(TrobadesBCN,alejandrox@gmail.cat,xxxxxxxx,938788888)
+
+Information Meeting Group Name: TrobadesBCN
+No members to show
+No coorganizers to show
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.cat Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+No places to show
+No meetings to show
+
+
+## COMMAND ##: addCoorganizer(TrobadesBCN,rosana@gmail.es,yyyyyyyy)
+ New MeetingGroup TrobadesBCN Coordinator email: alejandrox@gmail.cat
+
+## COMMAND ##: addInterest(jimenogarcia@uoc.es,ausdfas)
+
+## COMMAND ##: addInterest(albaJ@uoc.es,asse4434r,basketball)
+* albaJ@uoc.es asse4434r
+List of interests
+basketball 
+
+## COMMAND ##: addInterest(albaJ@uoc.es,asse4434r,football)
+* albaJ@uoc.es asse4434r
+List of interests
+basketball football 
+
+## COMMAND ##: addInterest(albaJ@uoc.es,asse4434r,skiing)
+* albaJ@uoc.es asse4434r
+List of interests
+basketball football skiing 
+
+## COMMAND ##: addInterest(albaJ@uoc.es,asse4434r,BCN)
+* albaJ@uoc.es asse4434r
+List of interests
+basketball football skiing BCN 
+
+## COMMAND ##: addInterest(albaJ@uoc.es,asse4434r,swimming)
+* albaJ@uoc.es asse4434r
+List of interests
+basketball football skiing BCN swimming 
+
+## COMMAND ##: addInterest(albaJ@uoc.es,asse4434r,Paris)
+Maximum number of interests per user exceeded or duplicated user interest
+
+## COMMAND ##: addInterest(lopezg@gmail.com,zzzzzzzz,BCN)
+* lopezg@gmail.com zzzzzzzz
+List of interests
+BCN 
+
+## COMMAND ##: addInterest(rosana@gmail.es,yyyyyyyy,BCN)
+* rosana@gmail.es yyyyyyyy
+List of interests
+BCN 
+
+## COMMAND ##: addInterest(alejandrox@gmail.cat,xxxxxxxx,football)
+* alejandrox@gmail.cat xxxxxxxx
+List of interests
+football 
+
+## COMMAND ##: addInterest(alejandrox@gmail.cat,xxxxxxxx,football)
+Maximum number of interests per user exceeded or duplicated user interest
+
+## COMMAND ##: addInterest(wrong@gmail.cat,xxxxxxxx,football)
+To be a member of a Meeting Group requires to be an existing user of the Meeting Manager. Check addUser.
+
+## COMMAND ##: listUsers
+MeetingManager Users:
+* jimenogarcia@uoc.es ausdfas
+Not available Interests for user yet
+
+* albaJ@uoc.es asse4434r
+List of interests
+basketball football skiing BCN swimming 
+* lopezg@gmail.com zzzzzzzz
+List of interests
+BCN 
+* rosana@gmail.es yyyyyyyy
+List of interests
+BCN 
+* alejandrox@gmail.cat xxxxxxxx
+List of interests
+football 
+
+
+## COMMAND ##: searchMeeting(albaJ@uoc.es,asse4434r)
+Checking interest .....basketball
+No Matching MeetingGroup for interest basketball
+Checking interest .....football
+No Matching MeetingGroup for interest football
+Checking interest .....skiing
+No Matching MeetingGroup for interest skiing
+Checking interest .....BCN
+Matching MeetingGroup TrobadesBCN for interest BCN
+Checking interest .....swimming
+No Matching MeetingGroup for interest swimming
+
+## COMMAND ##: searchMeeting(lopezg@gmail.com,zzzzzzzz)
+Checking interest .....BCN
+Matching MeetingGroup TrobadesBCN for interest BCN
+
+## COMMAND ##: addPlace(London,LondonStreet,North,yes,England)
++ New Place Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+
+## COMMAND ##: addPlace(Shanghai,GhiaStreet,South,yes,China)
++ New Place Identifier: 2 Name: Shanghai Address: GhiaStreetZone: South Private Residence: No Country: China
+
+## COMMAND ##: addPlace(Madrid,LongWay,East,no,Spain)
++ New Place Identifier: 3 Name: Madrid Address: LongWayZone: East Private Residence: Yes Country: Spain
+
+## COMMAND ##: assignPlaceMG(1,TrobadesBCN)
++ Added Place to Meeting Group 
+Information Meeting Group Name: TrobadesBCN
+No members to show
+MeetingGroup Coorganizers in insertion order: 
+* rosana@gmail.es yyyyyyyy
+Not available Interests for user yet
+
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.cat Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+List of available places------------------
+Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+No meetings to show
+
+
+## COMMAND ##: assignPlaceMG(1,TrobadesBCN)
+Place already in Meeting Group
+
+## COMMAND ##: assignPlaceMG(3,TrobadesBCN)
++ Added Place to Meeting Group 
+Information Meeting Group Name: TrobadesBCN
+No members to show
+MeetingGroup Coorganizers in insertion order: 
+* rosana@gmail.es yyyyyyyy
+Not available Interests for user yet
+
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.cat Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+List of available places------------------
+Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+Identifier: 3 Name: Madrid Address: LongWayZone: East Private Residence: Yes Country: Spain
+No meetings to show
+
+
+## COMMAND ##: assignPlaceMG(4,TrobadesBCN)
+Place not found in Meeting Manager
+
+## COMMAND ##: assignPlaceMG(2,MeetingLondon)
+Meeting Group not found in Meeting Manager
+
+

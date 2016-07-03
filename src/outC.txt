@@ -1,0 +1,88 @@
+## COMMAND ##: addUser(alejandrox@gmail.cat,xxxxxxxx)
++ New user alejandrox@gmail.cat pwd:xxxxxxxx
+
+## COMMAND ##: addMeetingGroup(outBCN,alejandrox@gmail.cat,xxxxxxxx,938788888)
+
+Information Meeting Group Name: outBCN
+No members to show
+No coorganizers to show
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.cat Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+No places to show
+No meetings to show
+
+
+## COMMAND ##: addPlace(London,LondonStreet,North,yes,England)
++ New Place Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+
+## COMMAND ##: addPlace(Shangai,NorthShangai,NE,yes,China)
++ New Place Identifier: 2 Name: Shangai Address: NorthShangaiZone: NE Private Residence: No Country: China
+
+## COMMAND ##: assignPlaceMG(1,outBCN)
++ Added Place to Meeting Group 
+Information Meeting Group Name: outBCN
+No members to show
+No coorganizers to show
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.cat Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+List of available places------------------
+Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+No meetings to show
+
+
+## COMMAND ##: assignPlaceMG(2,outBCN)
++ Added Place to Meeting Group 
+Information Meeting Group Name: outBCN
+No members to show
+No coorganizers to show
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.cat Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+List of available places------------------
+Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+Identifier: 2 Name: Shangai Address: NorthShangaiZone: NE Private Residence: No Country: China
+No meetings to show
+
+
+## COMMAND ##: addMeetingMG(outBCN,1,VisitZoo,0,20,1,3,80)
++ Added Meeting. Complete info MG 
+Information Meeting Group Name: outBCN
+No members to show
+No coorganizers to show
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.cat Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+List of available places------------------
+Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+Identifier: 2 Name: Shangai Address: NorthShangaiZone: NE Private Residence: No Country: China
+MG Meetings Information------------------
+Description VisitZoo Date 30-11-2014 AttendeeLimit: 20 guestsPerMember: 3 attendeeTotal 80
+Related Place to Meeting info: Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+
+
+
+## COMMAND ##: addMeetingMG(outBCN,1,VisitZoo,0,20,1,3,80)
+Meeting with same description in Meeting Group. Not added.
+
+## COMMAND ##: addMeetingMG(outBCN,4,3DCinema,1,0,1,3,180)
+Place not found in Meeting Manager
+
+## COMMAND ##: listAll(outBCN)
+
+Information Meeting Group Name: outBCN
+No members to show
+No coorganizers to show
+MeetingGroup Organizer Information
+ Email: alejandrox@gmail.cat Pwd: xxxxxxxx Phone: 938788888
+Fixed fee: 15 Percentage: 0.1
+List of available places------------------
+Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+Identifier: 2 Name: Shangai Address: NorthShangaiZone: NE Private Residence: No Country: China
+MG Meetings Information------------------
+Description VisitZoo Date 30-11-2014 AttendeeLimit: 20 guestsPerMember: 3 attendeeTotal 80
+Related Place to Meeting info: Identifier: 1 Name: London Address: LondonStreetZone: North Private Residence: No Country: England
+
+
+
